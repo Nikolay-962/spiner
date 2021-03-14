@@ -149,7 +149,7 @@ startTimerBtn.addEventListener('click', () => {
   startTimerBtn.setAttribute('disabled', true);
   playSound(soundStart);
 });
-
+// чёрный ящик
 function blackBox() {
   let audio = document.getElementById("b-box");
   audio.src = 'sounds/black-box.mp3';
