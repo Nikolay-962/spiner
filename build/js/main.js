@@ -33,7 +33,7 @@ timeValueControl.addEventListener('change', () => {
 });
 
 let timerContainer = document.querySelector('#timer');
-
+/*
 function resetTimer() {
   timerContainer.innerHTML = `
   <div class="base-timer">
@@ -57,7 +57,7 @@ function resetTimer() {
   </div>
   `;
 }
-
+*/
 resetTimer();
 
 const playSound = (sound) => {
@@ -136,9 +136,9 @@ function calculateTimeFraction() {
 }
 
 function setCircleDasharray() {
-  const circleDasharray = `${(
+  /*const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
-  ).toFixed(0)} 283`;
+  ).toFixed(0)} 283`;*/
   timerPath.setAttribute('stroke-dasharray', circleDasharray);
 }
 
