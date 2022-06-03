@@ -23,11 +23,6 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 100vh;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
 }
 
 .game-field__top,
