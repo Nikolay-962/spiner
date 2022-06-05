@@ -170,3 +170,7 @@ function gamesStart() {
   audio.src = 'sounds/gameStartScreen.mp3';
   return;
 }
+let mediaWidth = document.querySelector('.img');
+mediaWidth.addEventListener('click', () => {
+
+})

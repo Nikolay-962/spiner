@@ -21,7 +21,7 @@ minusCommand.addEventListener('click', () => {
   if (commandCount > 0) {
     commandCount--;
     commandBox.textContent = commandCount;
-  }  
+  }
 });
 
 plusViewers.addEventListener('click', () => {
@@ -34,13 +34,13 @@ minusViewers.addEventListener('click', () => {
   if (viewersCount > 0) {
     viewersCount--;
     viewersBox.textContent = viewersCount;
-  }  
+  }
 });
 
 
 function plusComandPlay() {
   //let audio = document.getElementById("pl-comand");
-  audio.src = 'sounds/victory-play.mp3';
+  audio.src = 'sounds/victoria-play.mp3';
   return;
 }
 

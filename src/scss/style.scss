@@ -251,9 +251,7 @@ body {
   }
 }
 
-.img {
-  border-radius: 50%;
-}
+
 
 .arrow-img {
   width: 100%;
@@ -321,4 +319,8 @@ body {
     top: 74px;
     box-shadow: inset 0 0 30px 1px rgba(0, 0, 0, 0.2);
   }
+}
+
+.img {
+  background-size: 800px;
 }
