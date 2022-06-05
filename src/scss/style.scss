@@ -11,7 +11,7 @@ body {
 
 .game-field {
   max-width: 440px;
-  flex-basis: 50%;
+  flex-basis: 40%;
 
   &__wrap {
     display: flex;
@@ -277,7 +277,7 @@ body {
 }
 
 .game-spin {
-  flex-basis: 50%;
+  flex-basis: 60%;
   position: relative;
 }
 

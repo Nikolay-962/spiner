@@ -7,8 +7,8 @@ body {
 
 .game-field {
   max-width: 440px;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
 }
 
 .game-field__wrap {
@@ -316,8 +316,8 @@ body {
 }
 
 .game-spin {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
   position: relative;
 }
 
