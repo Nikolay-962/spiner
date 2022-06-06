@@ -175,5 +175,5 @@ mediaWidth.addEventListener('click', () => {
 
   let elStyle = mediaWidth.style.cssText;
   //elStyle.cssText = "width: 580px; hight: 580px";
-  console.log(elStyle)
+  //console.log(elStyle)
 })
