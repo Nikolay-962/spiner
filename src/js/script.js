@@ -173,4 +173,7 @@ function gamesStart() {
 let mediaWidth = document.querySelector('.img');
 mediaWidth.addEventListener('click', () => {
 
+  let elStyle = mediaWidth.style.cssText;
+  //elStyle.cssText = "width: 580px; hight: 580px";
+  console.log(elStyle)
 })
