@@ -318,13 +318,29 @@ body {
     transform: translateX(-50%);
     top: 74px;
     box-shadow: inset 0 0 30px 1px rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 992px) {
+      top: 64px;
+      box-shadow: inset 0 0 30px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 878px) {
+      top: 56px;
+      /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+    }
   }
 }
 
 .wheel svg {
-  @media (max-width: 900px) {
+  @media (max-width: 992px) {
     width: 500px;
     height: 500px;
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+  }
+
+  @media (max-width: 878px) {
+    width: 440px;
+    height: 440px;
     /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
   }
 }
