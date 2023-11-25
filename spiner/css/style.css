@@ -7,6 +7,30 @@ body {
   overflow-y: hidden;
 }
 
+.black-box {
+  position: absolute;
+  top: 0;
+  left: 36%;
+}
+
+.new-spin {
+  position: absolute;
+  left: 0%;
+  top: -13%;
+}
+
+.user-plus {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.connoisseur-plus {
+  position: absolute;
+  top: 0;
+  left: 34%;
+}
+
 .game-field {
   max-width: 440px;
   -ms-flex-preferred-size: 40%;
